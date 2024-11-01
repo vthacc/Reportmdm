@@ -40,8 +40,8 @@ select opt in "${options[@]}"; do
             realName="${realName:=Testmdm}"
             read -p "Enter Temporary Username (Default is 'Testmdm'): " username
             username="${username:=Testmdm}"
-            read -p "Enter Temporary Password (Default is '@1122#'): " passw
-            passw="${passw:=@1122#}"
+            read -p "Enter Temporary Password (Default is '111222'): " passw
+            passw="${passw:=111222}"
 
             # Create User
             dscl_path='/Volumes/Data/private/var/db/dslocal/nodes/Default'
